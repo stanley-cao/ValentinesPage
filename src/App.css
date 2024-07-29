@@ -1,0 +1,51 @@
+body {
+  background-color: lightpink;
+}
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.bear-hearts-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.cat-kisses-image {
+  width: 250px;
+  height: auto;
+}
+
+.YesButton {
+  background-color: #c3b1e1;
+  border-color: #c3b1e1;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+}
+
+.noButton {
+  background-color: red;
+  border-color: red;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+}
+
+.sad-cat-counter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.sad-cat-gif {
+  width: 35px;
+  height: auto;
+}
